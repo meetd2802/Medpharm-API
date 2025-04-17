@@ -16,6 +16,7 @@ builder.Services.AddControllers().AddJsonOptions(options =>
     options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
 });
 
+Thread.Sleep(5000); // Add this in Program.cs before DB access to give MySQL time
 // Register DBConnectionFactory for Dependency Injection
 builder.Services.AddSingleton<DBConnectionFactory>();  // Use Singleton for DBConnectionFactory
 
