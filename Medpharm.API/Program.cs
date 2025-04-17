@@ -11,12 +11,14 @@ var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 // Add services to the container.
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
+    options.JsonSerializerOptions.Converters.Add(new ExceptionConverter());
     options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
     options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
 });
 
 // Register DBConnectionFactory for Dependency Injection
 builder.Services.AddSingleton<DBConnectionFactory>();  // Use Singleton for DBConnectionFactory
+
 
 // Dependency Injection for Repositories and Services
 builder.Services.AddScoped<IAppointmentService, AppointmentService>();
