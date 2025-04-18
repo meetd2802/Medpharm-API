@@ -18,3 +18,4 @@ D:/Satish/Collage-InternProject-API/Medpharm/Medpharm.Common/obj/Debug/netstanda
 /Users/meetdave/Medpharm/Medpharm.Common/obj/Debug/netstandard2.0/Medpharm.Common.csproj.CoreCompileInputs.cache
 /Users/meetdave/Medpharm/Medpharm.Common/obj/Debug/netstandard2.0/Medpharm.Common.dll
 /Users/meetdave/Medpharm/Medpharm.Common/obj/Debug/netstandard2.0/Medpharm.Common.pdb
+/Users/meetdave/Medpharm/Medpharm.Common/obj/Debug/netstandard2.0/Medpharm.Common.sourcelink.json

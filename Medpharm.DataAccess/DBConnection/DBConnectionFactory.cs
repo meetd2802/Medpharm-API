@@ -14,11 +14,8 @@ namespace Medpharm.DataAccess.DBConnection
     public class DBConnectionFactory : DbContext
     {
         //add dbconnection here.
-        static readonly string connectionString =
-            Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development"
-                ? "Server=localhost; User ID=root; Password=meet123; Database=Medpharm"
-                : "Server=mysql; User ID=root; Password=meet123; Database=Medpharm";
-
+        static readonly string connectionString = "Server=localhost; User ID=root; Password=meet123; Database=Medpharm";
+  
         public DbSet<Appointment> appointment { get; set; }
         public DbSet<Doctor> doctors { get; set; }
         public DbSet<MedicalUpdate> medicalUpdates { get; set; } // Added MedicalUpdate
@@ -36,14 +33,7 @@ namespace Medpharm.DataAccess.DBConnection
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql(connectionString, mySqlOptions =>
-            {
-                mySqlOptions.EnableRetryOnFailure(
-                    maxRetryCount: 5,
-                    maxRetryDelay: TimeSpan.FromSeconds(10),
-                    errorNumbersToAdd: null
-                );
-            });
+            optionsBuilder.UseMySql(connectionString);
         }
 
         public class Appointment

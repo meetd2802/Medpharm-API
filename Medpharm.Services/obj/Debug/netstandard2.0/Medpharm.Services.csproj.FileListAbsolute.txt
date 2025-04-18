@@ -32,3 +32,4 @@ D:/Satish/Collage-InternProject-API/Medpharm/Medpharm.Services/obj/Debug/netstan
 /Users/meetdave/Medpharm/Medpharm.Services/obj/Debug/netstandard2.0/Medpharm.Services.dll
 /Users/meetdave/Medpharm/Medpharm.Services/obj/Debug/netstandard2.0/Medpharm.Services.pdb
 /Users/meetdave/Medpharm/Medpharm.Services/obj/Debug/netstandard2.0/Medpharm.D5787F74.Up2Date
+/Users/meetdave/Medpharm/Medpharm.Services/obj/Debug/netstandard2.0/Medpharm.Services.sourcelink.json

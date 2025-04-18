@@ -24,3 +24,4 @@ D:/Satish/Collage-InternProject-API/Medpharm/Medpharm.BusinessModels/obj/Debug/n
 /Users/meetdave/Medpharm/Medpharm.BusinessModels/obj/Debug/netstandard2.0/Medpharm.BusinessModels.dll
 /Users/meetdave/Medpharm/Medpharm.BusinessModels/obj/Debug/netstandard2.0/Medpharm.BusinessModels.pdb
 /Users/meetdave/Medpharm/Medpharm.BusinessModels/obj/Debug/netstandard2.0/Medpharm.D1B5A7C9.Up2Date
+/Users/meetdave/Medpharm/Medpharm.BusinessModels/obj/Debug/netstandard2.0/Medpharm.BusinessModels.sourcelink.json
