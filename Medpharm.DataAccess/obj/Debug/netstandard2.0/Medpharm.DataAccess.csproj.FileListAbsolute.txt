@@ -28,3 +28,4 @@ D:/Satish/Collage-InternProject-API/Medpharm/Medpharm.DataAccess/obj/Debug/netst
 /Users/meetdave/Medpharm/Medpharm.DataAccess/obj/Debug/netstandard2.0/Medpharm.DataAccess.dll
 /Users/meetdave/Medpharm/Medpharm.DataAccess/obj/Debug/netstandard2.0/Medpharm.DataAccess.pdb
 /Users/meetdave/Medpharm/Medpharm.DataAccess/obj/Debug/netstandard2.0/Medpharm.6BCA3AB9.Up2Date
+/Users/meetdave/Medpharm/Medpharm.DataAccess/obj/Debug/netstandard2.0/Medpharm.DataAccess.sourcelink.json

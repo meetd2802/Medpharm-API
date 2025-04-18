@@ -39,8 +39,8 @@ namespace Medpharm.DataAccess.DBConnection
             optionsBuilder.UseMySql(connectionString, mySqlOptions =>
             {
                 mySqlOptions.EnableRetryOnFailure(
-                    maxRetryCount: 15,
-                    maxRetryDelay: TimeSpan.FromSeconds(40),
+                    maxRetryCount: 5,
+                    maxRetryDelay: TimeSpan.FromSeconds(10),
                     errorNumbersToAdd: null
                 );
             });
